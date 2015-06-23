@@ -6,9 +6,9 @@ A program for modelling a charged particle movement in different electromagnetic
 Building and running
 --------------------
 
-Install qt-sdk and type in command line:
+Install Qt4 SDK and type in the command line:
 
-    qmake-qt4
+    qmake e.pro
     make
     ./e
     
