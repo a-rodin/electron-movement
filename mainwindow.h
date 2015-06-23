@@ -42,8 +42,8 @@ class MainWindow: public QMainWindow, private Ui::MainWindow {
         void updateZoom();
         void fieldEditClosed();
         void fieldEditPaused(bool p);
-        void on_action_save_activated();
-        void on_action_open_activated();
+        void on_action_save_triggered();
+        void on_action_open_triggered();
 
     private:
         void loadFromFile(const QString &fileName);

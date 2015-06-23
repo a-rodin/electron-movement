@@ -198,7 +198,7 @@ void MainWindow::saveToFile(const QString &fileName)
     }
 }
 
-void MainWindow::on_action_open_activated()
+void MainWindow::on_action_open_triggered()
 {
     QString fileName = QFileDialog::getOpenFileName(this,
             QString::fromUtf8("Открыть модель"),
@@ -207,7 +207,7 @@ void MainWindow::on_action_open_activated()
         loadFromFile(fileName);
 }
 
-void MainWindow::on_action_save_activated()
+void MainWindow::on_action_save_triggered()
 {
     QString fileName = QFileDialog::getSaveFileName(this,
             QString::fromUtf8("Сохранить модель"),
