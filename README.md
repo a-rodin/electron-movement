@@ -1,7 +1,7 @@
 electron-movement
 =================
 
-A program for modelling a charged particle movement in different electromagnetic fields
+A program for modelling a charged particle movement in various electromagnetic fields
 
 Building and running
 --------------------
